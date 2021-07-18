@@ -1,0 +1,58 @@
+*{
+   box-sizing: border-box;
+   font-family: 'Merriweather', serif;
+}
+
+body{
+   overflow-x: hidden;
+}
+
+nav{
+   background-color: #000000CC;
+   color: #F5F5F7;
+   text-align: center;
+   font-size: 2rem;
+   padding: 7px 0px 10px 0px;
+   margin: -10px -10px ;
+}
+
+#nav {
+   padding: 5% 12% 2%;
+}
+
+#intro{
+   margin-left: 10px;
+}
+
+h2{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-style: italic;
+}
+
+a{
+   cursor: pointer;
+   text-decoration: none;
+   font-weight: 700;
+}
+
+form{
+   padding:0px 0px 10px 0px;
+}
+
+#end{
+   margin-left: 8px;
+}
+
+#footer{
+   background-color: #000000CC;
+   color: #F5F5F7;
+   text-align: center;
+   font-size: 1.5rem;
+   padding: 20px 0px 50px 0px;
+   margin: 0px -8px 0px -8px;
+}
+
+.custom-padding {
+   padding: 5% 12%;
+}

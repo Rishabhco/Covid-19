@@ -5,6 +5,16 @@
 
 body{
    overflow-x: hidden;
+   background-color: #F5F5F7;
+}
+
+#content{
+   background-color: #b8b8b82d;
+   border-color: rgba(66, 65, 65, 0.514);
+   margin:40px 120px 20px 120px;
+   border-style: dashed;
+   border-spacing: 70px;
+   border-radius: 20px 20px;
 }
 
 nav{
@@ -22,26 +32,56 @@ nav{
 
 #intro{
    margin-left: 10px;
+   background-color: #1D1D1DCC;
+   border-style: solid;
+   border-color: #1d1d1de3;
+   border-radius: 10px;
+   border-width: 3px;
+   padding: 10px 20px 10px 20px;
+   color: rgba(255, 255, 255, 0.801);
+}
+
+.c1{
+   background-color: #1D1D1DCC;
+   border-style: solid;
+   border-color: #1d1d1de3;
+   border-radius: 10px;
+   border-width: 3px;
+   padding: 15px 30px 15px 30px;
+   color: rgba(255, 255, 255, 0.801);
 }
 
 h2{
    font-family: 'Roboto', sans-serif;
    font-weight: 700;
    font-style: italic;
+   color: #1d1d1dc7;
 }
 
 a{
    cursor: pointer;
    text-decoration: none;
    font-weight: 700;
+   color: rgba(255, 255, 255, 0.801);
 }
 
 form{
-   padding:0px 0px 10px 0px;
+   padding:10px 20px 10px 20px;
+}
+
+#updates{
+   padding:10px 20px 10px 20px;
 }
 
 #end{
    margin-left: 8px;
+   background-color: #1D1D1DCC;
+   border-style: solid;
+   border-color: #1d1d1de3;
+   border-radius: 10px;
+   border-width: 3px;
+   color: rgba(255, 255, 255, 0.801);
+   padding: 10px 20px 10px 20px;;
 }
 
 #footer{
@@ -54,5 +94,5 @@ form{
 }
 
 .custom-padding {
-   padding: 5% 12%;
+   padding: 3% 7%;
 }
